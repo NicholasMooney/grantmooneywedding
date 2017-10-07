@@ -24,10 +24,10 @@
  body.affix .cento-header .nav-wrap { position: fixed; top: 0; z-index: 15; border-bottom: 2px solid #f7f7f7; }
  #icontent .container { overflow: visible; }
  .cento-header { position: relative; z-index: 9; width: 100%; background: #ffffff; padding: 40px 0 0; box-sizing: border-box; }
- .cento-header .logo { margin-bottom: 20px; }
+ .cento-header .logo { margin-bottom: 5px; }
  .cento-header .logo img { display: block; max-width: 200px; }
  .cento-header .logo #wsite-title { display: block; max-width: 500px; }
- .cento-header .logo, .cento-header .logo a { display: block; color: #000000; text-align: center; letter-spacing: .04em; font-family: 'Quattrocento Sans', sans-serif; font-size: 40px; font-weight: 700; line-height: normal; }
+ .cento-header .logo, .cento-header .logo a { display: block; color: #000000; text-align: center; letter-spacing: .04em; font-family: 'antro_vectraregular', sans-serif; font-size: 60px; font-weight: 100; line-height: normal; }
  .cento-header .nav-wrap { overflow: hidden; width: 100%; padding: 10px 0; background: #ffffff; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header label.hamburger { display: none; }
  .nav { text-align: center; }
@@ -261,3 +261,14 @@ div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+@font-face {
+    font-family: 'antro_vectraregular';
+    src: url('antro_vectra-webfont.woff2') format('woff2'),
+         url('antro_vectra-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.wsite-content-title { font-family: 'antro_vectraregular', sans-serif; font-weight:600; }
