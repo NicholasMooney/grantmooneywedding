@@ -1,3 +1,24 @@
+var $form = $('form#wedding-form'),
+    url = 'https://script.google.com/macros/s/AKfycbzAIs_hzCRxgcM4lZJI82uqryusAKBuNV_5PPVG3kNxwGC6lic/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+
+
+
+
+
+
+
 jQuery(function($) {
 
   // Check your elements

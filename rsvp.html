@@ -73,7 +73,7 @@
 		#wsite-content .product-large .product-title,
 		#wsite-content .product-small .product-title,
 		.blog-sidebar h2 {
-		/*	font-family: "Droid Serif" !important;
+			/*	font-family: "Droid Serif" !important;
 			font-weight: 400 !important; */
 		}
 
@@ -225,8 +225,9 @@
 		}
 	</style>
 
-	
+
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+	<script src="files/jquery-serialize-object-master/jquery.serialize-object.js"></script>
 
 
 </head>
@@ -240,55 +241,56 @@
 						<a href="">
 								<img src="" />
 								<p>Kate <span style="font-size:36px;"> & </span> Nick</p>
-							</a>
+					</a>
 
-</span></div>
+					</span>
+				</div>
 				<label class="hamburger"><span></span></label>
 			</div>
 			<div class="nav-wrap">
 				<div class="container">
 					<div class="nav desktop-nav">
 						<ul class="wsite-menu-default">
-								<li id="pg823199998266193452" class="wsite-menu-item-wrap">
-										<a href="index.html" class="wsite-menu-item">
+							<li id="pg823199998266193452" class="wsite-menu-item-wrap">
+								<a href="index.html" class="wsite-menu-item">
 						HOME
 					</a>
-		
-									</li>
-		
-									<li class="wsite-menu-item-wrap">
-										<a href="accommodations.html" class="wsite-menu-item">
+
+							</li>
+
+							<li class="wsite-menu-item-wrap">
+								<a href="accommodations.html" class="wsite-menu-item">
 							ACCOMMODATIONS
 						</a>
-		
-									</li>
-		
-									<li class="wsite-menu-item-wrap">
-										<a href="details.html" class="wsite-menu-item">
+
+							</li>
+
+							<li class="wsite-menu-item-wrap">
+								<a href="details.html" class="wsite-menu-item">
 								DETAILS
 							</a>
-		
-									</li>
-		
-		
-									<li id="active" id="pg335415072968798418" class="wsite-menu-item-wrap">
-										<a href="rsvp.html" class="wsite-menu-item">
+
+							</li>
+
+
+							<li id="active" id="pg335415072968798418" class="wsite-menu-item-wrap">
+								<a href="rsvp.html" class="wsite-menu-item">
 						RSVP
 					</a>
-		
-									</li>
-									<li id="pg317072742179917392" class="wsite-menu-item-wrap">
-										<a href="registry.html" class="wsite-menu-item">
+
+							</li>
+							<li id="pg317072742179917392" class="wsite-menu-item-wrap">
+								<a href="registry.html" class="wsite-menu-item">
 						REGISTRY
 					</a>
-		
-									</li>
-									<li id="pg733751618228199669" class="wsite-menu-item-wrap">
-										<a href="explore.html" class="wsite-menu-item">
+
+							</li>
+							<li id="pg733751618228199669" class="wsite-menu-item-wrap">
+								<a href="explore.html" class="wsite-menu-item">
 						EXPLORE CO
 					</a>
-		
-									</li>
+
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -330,13 +332,13 @@
 
 																<div class="paragraph" style="text-align:center;"><span style="color:rgb(42, 42, 42)">UNDER CONSTRUCTION</span></div>
 
-															
 
-									
+
+
 
 
 															</td>
-															
+
 															<td class="wsite-multicol-col" style="width:21.375806107667%; padding:0 15px;">
 
 
@@ -347,25 +349,129 @@
 
 															</td>
 														</tr>
-													
+
 													</tbody>
 												</table>
 												<video id="mobilevid" width="60%" height="50%" controls autoplay loop muted style="margin-left: auto; margin-right: auto; display:block;">
-														<source src="uploads/film.mp4" type="video/mp4">
-													  Your browser does not support the video tag.
-													  </video>
+													<source src="uploads/film.mp4" type="video/mp4"> Your browser does not support the video tag.
+												</video>
 
 											</div>
 
 										</div>
 									</div>
-									
+
 
 									<div class="wsite-spacer" style="height:50px;"></div>
 
-	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwR53s8h12ZTjiFgn8C_KdV2e_b9UGmpl8puRk2WNwcvC8Ew/viewform?embedded=true" width="900px" height="1330px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+									<div>
+										<div class="wsite-multicol">
+											<div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+												<table class="wsite-multicol-table">
+													<tbody class="wsite-multicol-tbody">
+														<tr class="wsite-multicol-tr">
+															<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
 
 
+
+																<div>
+
+
+																	<form id="wedding-form" action="" method="POST">
+																		<div class="wsite-form-container" style="margin-top:10px;">
+																			<ul class="formlist">
+																				<div>
+																					<div class="wsite-form-field" style="margin:5px 0px 0px 0px;">
+																						<label class="wsite-form-label">Will you attend? <span class="form-required">*</span></label>
+																						<div class="wsite-form-radio-container">
+																							<span class='form-radio-container'><input type='radio' name='Attending' value='Yes' /><label >Yes</label></span>
+																							<span class='form-radio-container'><input type='radio' name='Attending' value='No' /><label >No</label></span>
+																							<span class='form-radio-container'><input type='radio' name='Attending' value='Maybe' /><label >Maybe</label></span>
+
+																						</div>
+																						<div id="instructions-Will you attend?" class="wsite-form-instructions" style="display:none;"></div>
+																					</div>
+																				</div>
+
+																				<div>
+																					<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+																						<label class="wsite-form-label">Email <span class="form-required">*</span></label>
+																						<div class="wsite-form-input-container">
+																							<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Email" />
+																						</div>
+																						<div class="wsite-form-instructions" style="display:none;"></div>
+																					</div>
+																				</div>
+
+																				<div>
+																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																						<label class="wsite-form-label">Name <span class="form-required">*</span></label>
+																						<div style="clear:both;"></div>
+																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																							<input class="wsite-form-input wsite-input" type="text" name="FirstName1" />
+																							<label class="wsite-form-sublabel">First</label>
+																						</div>
+																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																							<input class="wsite-form-input wsite-input" type="text" name="LastName1" />
+																							<label class="wsite-form-sublabel">Last</label>
+																						</div>
+																						<div class="wsite-form-instructions" style="display:none;"></div>
+																					</div>
+																					<div style="clear:both;"></div>
+																				</div>
+																				<div>
+																					<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+																						<label class="wsite-form-label">Special requests (e.g. food allergies)</label>
+																						<div class="wsite-form-input-container">
+																							<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Notes" />
+																						</div>
+																						<div class="wsite-form-instructions" style="display:none;"></div>
+																					</div>
+																				</div>
+																			</ul>
+																		</div>
+																		<div style="display:none; visibility:hidden;">
+																			<input type="text" name="wsite_subject" />
+																		</div>
+																		<div style="text-align:left; margin-top:10px; margin-bottom:10px;" id="submit-form" >
+																			<input type="submit"  style="position:absolute;top:0;left:-9999px;width:1px;height:1px" />
+  
+																			<a class="wsite-button">
+																				
+																				<span class="wsite-button-inner">Submit</span>
+																			</a>
+																		</div>
+																	</form>
+
+
+
+																</div>
+
+
+
+															</td>
+															<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+																<div>
+																	<div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+																		<a>
+																			<img src="uploads/rsvp_2_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+																		</a>
+																		<div style="display:block;font-size:90%"></div>
+																	</div>
+																</div>
+
+
+
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -382,43 +488,43 @@
 
 	<div class="nav mobile-nav">
 		<ul class="wsite-menu-default">
-				<li id="pg823199998266193452" class="wsite-menu-item-wrap">
-						<a href="index.html" class="wsite-menu-item">
+			<li id="pg823199998266193452" class="wsite-menu-item-wrap">
+				<a href="index.html" class="wsite-menu-item">
 						HOME
 					</a>
-		
-					</li>
-					<li id="pg636076740979493339" class="wsite-menu-item-wrap">
-							<a href="accommodations.html" class="wsite-menu-item">
+
+			</li>
+			<li id="pg636076740979493339" class="wsite-menu-item-wrap">
+				<a href="accommodations.html" class="wsite-menu-item">
 							ACCOMMODATIONS
 						</a>
-			
-						</li>
-					<li id="pg636076740979493339" class="wsite-menu-item-wrap">
-						<a href="details.html" class="wsite-menu-item">
+
+			</li>
+			<li id="pg636076740979493339" class="wsite-menu-item-wrap">
+				<a href="details.html" class="wsite-menu-item">
 						DETAILS
 					</a>
-		
-					</li>
-				
-					<li id="active" id="pg335415072968798418" class="wsite-menu-item-wrap">
-						<a href="rsvp.html" class="wsite-menu-item">
+
+			</li>
+
+			<li id="active" id="pg335415072968798418" class="wsite-menu-item-wrap">
+				<a href="rsvp.html" class="wsite-menu-item">
 						RSVP
 					</a>
-		
-					</li>
-					<li id="pg317072742179917392" class="wsite-menu-item-wrap">
-						<a href="registry.html" class="wsite-menu-item">
+
+			</li>
+			<li id="pg317072742179917392" class="wsite-menu-item-wrap">
+				<a href="registry.html" class="wsite-menu-item">
 						REGISTRY
 					</a>
-		
-					</li>
-					<li class="wsite-menu-item-wrap">
-						<a href="explore.html" class="wsite-menu-item">
+
+			</li>
+			<li class="wsite-menu-item-wrap">
+				<a href="explore.html" class="wsite-menu-item">
 						EXPLORE
 					</a>
-		
-					</li>
+
+			</li>
 		</ul>
 	</div>
 
