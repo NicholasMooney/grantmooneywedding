@@ -330,7 +330,7 @@
 
 
 
-																<div class="paragraph" style="text-align:center;"><span style="color:rgb(42, 42, 42)">UNDER CONSTRUCTION</span></div>
+																
 
 
 
@@ -352,7 +352,7 @@
 
 													</tbody>
 												</table>
-												<video id="mobilevid" width="60%" height="50%" controls autoplay muted loop style="margin-left: auto; margin-right: auto; display:block;">
+												<video id="mobilevid" width="60%" height="50%" controls autoplay loop style="margin-left: auto; margin-right: auto; display:block;">
 													<source src="uploads/film.mp4" type="video/mp4"> Your browser does not support the video tag.
 												</video>
 
@@ -389,9 +389,9 @@
 																					<div class="wsite-form-field" style="margin:5px 0px 0px 0px;">
 																						<label class="wsite-form-label">Will you attend? <span class="form-required">*</span></label>
 																						<div class="wsite-form-radio-container">
-																							<span class='form-radio-container'><input type='radio' name='Attending' value='Yes' /><label >Yes</label></span>
-																							<span class='form-radio-container'><input type='radio' name='Attending' value='No' /><label >No</label></span>
-																							<span class='form-radio-container'><input type='radio' name='Attending' value='Maybe' /><label >Maybe</label></span>
+																							<span class='form-radio-container'><input type='radio' name='Attending' value='Yes' required /><label >Yes</label></span>
+																							<span class='form-radio-container'><input type='radio' name='Attending' value='No' required /><label >No</label></span>
+																							<span class='form-radio-container'><input type='radio' name='Attending' value='Maybe' required /><label >Maybe</label></span>
 
 																						</div>
 																						<div id="instructions-Will you attend?" class="wsite-form-instructions" style="display:none;"></div>
@@ -400,9 +400,9 @@
 
 																				<div>
 																					<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label">Email <span class="form-required">*</span></label>
+																						<label class="wsite-form-label">Email (so we can reach out with questions)<span class="form-required">*</span></label>
 																						<div class="wsite-form-input-container">
-																							<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Email" />
+																							<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Email" required/>
 																						</div>
 																						<div class="wsite-form-instructions" style="display:none;"></div>
 																					</div>
@@ -413,11 +413,11 @@
 																						<label class="wsite-form-label">Name <span class="form-required">*</span></label>
 																						<div style="clear:both;"></div>
 																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName1" />
+																							<input class="wsite-form-input wsite-input" type="text" name="FirstName1" required/>
 																							<label class="wsite-form-sublabel">First</label>
 																						</div>
 																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName1" />
+																							<input class="wsite-form-input wsite-input" type="text" name="LastName1" required/>
 																							<label class="wsite-form-sublabel">Last</label>
 																						</div>
 																						<div class="wsite-form-instructions" style="display:none;"></div>
@@ -555,10 +555,11 @@
 																	</form>
 
 																	<div id="confirmation" style="display:none">
-																		<p>Thanks! You're RSVP'd!</p>
+																		<div id="wsite-spacer" style="height:150px"></div>
+																		<h2 class="wsite-content-title" style="text-align:center; font-weight:100;">Thanks! </h2>
+																		<p style="font-family:Montserrat; text-align:center; font-size:30px;">We can't wait to see you!</p>
+																		<div id="wsite-spacer" style="height:500px"></div>
 																	</div>
-
-
 
 																</div>
 
@@ -572,7 +573,7 @@
 																<div>
 																	<div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 																		<a>
-																			<img src="uploads/rsvp_2_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+																			<img src="" alt="Picture" style="width:auto;max-width:100%" />
 																		</a>
 																		<div style="display:block;font-size:90%"></div>
 																	</div>
