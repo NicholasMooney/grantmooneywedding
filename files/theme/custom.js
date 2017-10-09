@@ -9,9 +9,14 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serializeObject()
   }).success(
-    // do something
+    //on success, change the form to a confirmation message
+    alert("success!")
+  ).error(
+   //if a failure
+   alert("Dang!! Something went wrong - will you please send Nick an email with your RSVP? He'll figure out what's broken. nicholas.a.mooney@gmail.com")
   );
-})
+
+});
 
 
 
