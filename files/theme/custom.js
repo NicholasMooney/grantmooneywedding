@@ -7,14 +7,14 @@ $('#submit-form').on('click', function(e) {
     url: url,
     method: "GET",
     dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    //on success, change the form to a confirmation message
-    alert("success!")
-  ).error(
-   //if a failure
-   alert("Dang!! Something went wrong - will you please send Nick an email with your RSVP? He'll figure out what's broken. nicholas.a.mooney@gmail.com")
-  );
+    data: $form.serializeObject(),
+    error: function(){
+      alert("Uh oh, something went wrong. Will you please email Nick? nicholas.a.mooney@gmail.com");
+      },
+    success: function(){
+        alert("You're RSVP'd!");
+      }
+  });
 
 });
 
