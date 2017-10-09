@@ -1,3 +1,17 @@
+var counter = 2;
+function addRow(id){
+  if(counter <6){
+    $("#" + id + counter).show();
+    counter = counter + 1; 
+  }
+  else if(counter = 6){
+  $("#" + id + counter).show();
+    $("#addRowRSVP").hide();
+    counter = counter + 1; 
+  }
+}
+
+
 var $form = $('form#wedding-form'),
     url = 'https://script.google.com/macros/s/AKfycbzAIs_hzCRxgcM4lZJI82uqryusAKBuNV_5PPVG3kNxwGC6lic/exec'
 
@@ -12,7 +26,8 @@ $('#submit-form').on('click', function(e) {
       alert("Uh oh, something went wrong. Will you please email Nick? nicholas.a.mooney@gmail.com");
       },
     success: function(){
-        alert("You're RSVP'd!");
+        $("#wedding-form").hide();
+        $("#confirmation").show();
       }
   });
 
