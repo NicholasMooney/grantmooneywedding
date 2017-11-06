@@ -236,16 +236,20 @@
 	<div class="wrapper">
 		<div class="cento-header">
 			<div class="container">
-				<div class="logo"><span class="wsite-logo">
+				<div class="logo">
+					<span class="wsite-logo">
 
 						<a href="">
-								<img src="" />
-								<p>Kate <span style="font-size:36px;"> & </span> Nick</p>
-					</a>
+							<img src="" />
+							<p>Kate
+								<span style="font-size:36px;"> & </span> Nick</p>
+						</a>
 
 					</span>
 				</div>
-				<label class="hamburger"><span></span></label>
+				<label class="hamburger">
+					<span></span>
+				</label>
 			</div>
 			<div class="nav-wrap">
 				<div class="container">
@@ -253,42 +257,42 @@
 						<ul class="wsite-menu-default">
 							<li id="pg823199998266193452" class="wsite-menu-item-wrap">
 								<a href="index.html" class="wsite-menu-item">
-						HOME
-					</a>
+									HOME
+								</a>
 
 							</li>
 
 							<li class="wsite-menu-item-wrap">
 								<a href="accommodations.html" class="wsite-menu-item">
-							ACCOMMODATIONS
-						</a>
+									ACCOMMODATIONS
+								</a>
 
 							</li>
 
 							<li class="wsite-menu-item-wrap">
 								<a href="details.html" class="wsite-menu-item">
-								DETAILS
-							</a>
+									DETAILS
+								</a>
 
 							</li>
 
 
 							<li id="active" id="pg335415072968798418" class="wsite-menu-item-wrap">
 								<a href="rsvp.html" class="wsite-menu-item">
-						RSVP
-					</a>
+									RSVP
+								</a>
 
 							</li>
 							<li id="pg317072742179917392" class="wsite-menu-item-wrap">
 								<a href="registry.html" class="wsite-menu-item">
-						REGISTRY
-					</a>
+									REGISTRY
+								</a>
 
 							</li>
 							<li id="pg733751618228199669" class="wsite-menu-item-wrap">
 								<a href="explore.html" class="wsite-menu-item">
-						EXPLORE CO
-					</a>
+									EXPLORE CO
+								</a>
 
 							</li>
 						</ul>
@@ -330,7 +334,7 @@
 
 
 
-																
+
 
 
 
@@ -365,207 +369,236 @@
 									<div class="wsite-spacer" style="height:50px;"></div>
 
 									<div>
+										
 										<div class="wsite-multicol">
+
 											<div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+												
 												<table class="wsite-multicol-table">
 													<tbody class="wsite-multicol-tbody">
 														<tr class="wsite-multicol-tr">
-															<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+															
+																<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+																	
+																	<p><b>Formal invitation is coming in early 2018.</b></p><p><b>RSVP Will be available on the site then!</b></p>
 
+																	<div>
+																		
+<div id="disableform"></div>
+																		<form id="wedding-form" action="" method="POST">
+																			<div class="wsite-form-container" style="margin-top:10px;">
 
+																				<!-- Hiden input for timestamp -->
+																				<input type='hidden' name='Timestamp' id='timestamp' value='<?php echo date("Y-m-d G:H:s"); ?>' />
 
-																<div>
+																				<!--Begin Visible Form Questions -->
+																				<ul class="formlist">
+																					<div>
+																						<div class="wsite-form-field" style="margin:5px 0px 0px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Will you attend?
+																								<span class="form-required">*</span>
+																							</label>
+																							<div class="wsite-form-radio-container">
+																								<span class='form-radio-container'>
+																									<input type='radio' name='Attending' value='Yes' required />
+																									<label>Yes</label>
+																								</span>
+																								<span class='form-radio-container'>
+																									<input type='radio' name='Attending' value='No' required />
+																									<label>No</label>
+																								</span>
+																								<span class='form-radio-container'>
+																									<input type='radio' name='Attending' value='Maybe' required />
+																									<label>Maybe</label>
+																								</span>
 
-
-																	<form id="wedding-form" action="" method="POST">
-																		<div class="wsite-form-container" style="margin-top:10px;">
-
-																			<!-- Hiden input for timestamp -->
-																			<input type='hidden' name='Timestamp' id='timestamp' value='<?php echo date("Y-m-d G:H:s"); ?>' />
-
-																			<!--Begin Visible Form Questions -->
-																			<ul class="formlist">
-																				<div>
-																					<div class="wsite-form-field" style="margin:5px 0px 0px 0px;">
-																						<label class="wsite-form-label" style="cursor:text">Will you attend? <span class="form-required">*</span></label>
-																						<div class="wsite-form-radio-container">
-																							<span class='form-radio-container'><input type='radio' name='Attending' value='Yes' required /><label >Yes</label></span>
-																							<span class='form-radio-container'><input type='radio' name='Attending' value='No' required /><label >No</label></span>
-																							<span class='form-radio-container'><input type='radio' name='Attending' value='Maybe' required /><label >Maybe</label></span>
-
+																							</div>
+																							<div id="instructions-Will you attend?" class="wsite-form-instructions" style="display:none;"></div>
 																						</div>
-																						<div id="instructions-Will you attend?" class="wsite-form-instructions" style="display:none;"></div>
 																					</div>
-																				</div>
 
-																				<div>
-																					<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Email (so we can reach out with questions)<span class="form-required">*</span></label>
-																						<div class="wsite-form-input-container">
-																							<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Email" required/>
+																					<div>
+																						<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Email (so we can reach out with questions)
+																								<span class="form-required">*</span>
+																							</label>
+																							<div class="wsite-form-input-container">
+																								<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Email" required/>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
 																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
 																					</div>
-																				</div>
 
-																				<div>
-																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Name <span class="form-required">*</span></label>
+																					<div>
+																						<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Name
+																								<span class="form-required">*</span>
+																							</label>
+																							<div style="clear:both;"></div>
+																							<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="FirstName1" required/>
+																								<label class="wsite-form-sublabel" style="cursor:text">First</label>
+																							</div>
+																							<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="LastName1" required/>
+																								<label class="wsite-form-sublabel" style="cursor:text">Last</label>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
+																						</div>
 																						<div style="clear:both;"></div>
-																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName1" required/>
-																							<label class="wsite-form-sublabel"style="cursor:text">First</label>
-																						</div>
-																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName1" required/>
-																							<label class="wsite-form-sublabel"style="cursor:text">Last</label>
-																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
 																					</div>
-																					<div style="clear:both;"></div>
-																				</div>
 
 
-																				<!--  Additional Guests if given plus 1's  -->
+																					<!--  Additional Guests if given plus 1's  -->
 
 
 
 
-																				<div id="add2" style="display:none">
+																					<div id="add2" style="display:none">
 
-																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Second Guest Name <span class="form-required">*</span></label>
+																						<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Second Guest Name
+																								<span class="form-required">*</span>
+																							</label>
+																							<div style="clear:both;"></div>
+																							<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="FirstName2" />
+																								<label class="wsite-form-sublabel" style="cursor:text">First</label>
+																							</div>
+																							<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="LastName2" />
+																								<label class="wsite-form-sublabel" style="cursor:text">Last</label>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
+																						</div>
 																						<div style="clear:both;"></div>
-																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName2" />
-																							<label class="wsite-form-sublabel"style="cursor:text">First</label>
-																						</div>
-																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName2" />
-																							<label class="wsite-form-sublabel"style="cursor:text">Last</label>
-																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
+
 																					</div>
-																					<div style="clear:both;"></div>
+																					<div id="add3" style="display:none">
 
-																				</div>
-																				<div id="add3" style="display:none">
-
-																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Third Guest Name <span class="form-required">*</span></label>
+																						<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Third Guest Name
+																								<span class="form-required">*</span>
+																							</label>
+																							<div style="clear:both;"></div>
+																							<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="FirstName3" />
+																								<label class="wsite-form-sublabel" style="cursor:text">First</label>
+																							</div>
+																							<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="LastName3" />
+																								<label class="wsite-form-sublabel" style="cursor:text">Last</label>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
+																						</div>
 																						<div style="clear:both;"></div>
-																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName3" />
-																							<label class="wsite-form-sublabel"style="cursor:text">First</label>
-																						</div>
-																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName3" />
-																							<label class="wsite-form-sublabel"style="cursor:text">Last</label>
-																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
+
 																					</div>
-																					<div style="clear:both;"></div>
+																					<div id="add4" style="display:none">
 
-																				</div>
-																				<div id="add4" style="display:none">
-
-																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Fourth Guest Name <span class="form-required">*</span></label>
+																						<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Fourth Guest Name
+																								<span class="form-required">*</span>
+																							</label>
+																							<div style="clear:both;"></div>
+																							<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="FirstName4" />
+																								<label class="wsite-form-sublabel" style="cursor:text">First</label>
+																							</div>
+																							<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="LastName4" />
+																								<label class="wsite-form-sublabel" style="cursor:text">Last</label>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
+																						</div>
 																						<div style="clear:both;"></div>
-																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName4" />
-																							<label class="wsite-form-sublabel"style="cursor:text">First</label>
-																						</div>
-																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName4" />
-																							<label class="wsite-form-sublabel"style="cursor:text">Last</label>
-																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
+
 																					</div>
-																					<div style="clear:both;"></div>
 
-																				</div>
+																					<div id="add5" style="display:none">
 
-																				<div id="add5" style="display:none">
-
-																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Fifth Guest Name <span class="form-required">*</span></label>
+																						<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Fifth Guest Name
+																								<span class="form-required">*</span>
+																							</label>
+																							<div style="clear:both;"></div>
+																							<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="FirstName5" />
+																								<label class="wsite-form-sublabel" style="cursor:text">First</label>
+																							</div>
+																							<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="LastName5" />
+																								<label class="wsite-form-sublabel" style="cursor:text">Last</label>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
+																						</div>
 																						<div style="clear:both;"></div>
-																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName5" />
-																							<label class="wsite-form-sublabel"style="cursor:text">First</label>
-																						</div>
-																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName5" />
-																							<label class="wsite-form-sublabel"style="cursor:text">Last</label>
-																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
+
 																					</div>
-																					<div style="clear:both;"></div>
 
-																				</div>
+																					<div id="add6" style="display:none">
 
-																				<div id="add6" style="display:none">
-
-																					<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Sixth Guest Name <span class="form-required">*</span></label>
+																						<div class="wsite-form-field wsite-name-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Sixth Guest Name
+																								<span class="form-required">*</span>
+																							</label>
+																							<div style="clear:both;"></div>
+																							<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="FirstName6" />
+																								<label class="wsite-form-sublabel" style="cursor:text">First</label>
+																							</div>
+																							<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+																								<input class="wsite-form-input wsite-input" type="text" name="LastName6" />
+																								<label class="wsite-form-sublabel" style="cursor:text">Last</label>
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
+																						</div>
 																						<div style="clear:both;"></div>
-																						<div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="FirstName6" />
-																							<label class="wsite-form-sublabel"style="cursor:text">First</label>
-																						</div>
-																						<div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-																							<input class="wsite-form-input wsite-input" type="text" name="LastName6" />
-																							<label class="wsite-form-sublabel"style="cursor:text">Last</label>
-																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
+
 																					</div>
-																					<div style="clear:both;"></div>
 
-																				</div>
+																					<a id="addRowRSVP" onclick="addRow('add');" style="cursor:pointer">
+																						Get a plus one in your invite? Click here to add more
 
-																				<a id="addRowRSVP" onclick="addRow('add');" style="cursor:pointer">
-																				Get a plus one in your invite? Click here to add more
-																			
-																			</a>
+																					</a>
 
-																				<div>
-																					<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
-																						<label class="wsite-form-label"style="cursor:text">Special requests (e.g. food allergies)</label>
-																						<div class="wsite-form-input-container">
-																							<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Notes" />
+																					<div>
+																						<div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
+																							<label class="wsite-form-label" style="cursor:text">Special requests (e.g. food allergies)</label>
+																							<div class="wsite-form-input-container">
+																								<input class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="Notes" />
+																							</div>
+																							<div class="wsite-form-instructions" style="display:none;"></div>
 																						</div>
-																						<div class="wsite-form-instructions" style="display:none;"></div>
 																					</div>
-																				</div>
 
-																				<!-- End of form inputs  -->
+																					<!-- End of form inputs  -->
 
-																				<!--  Submit Button Below  -->
-																			</ul>
+																					<!--  Submit Button Below  -->
+																				</ul>
+																			</div>
+																			<div style="text-align:left; margin-top:10px; margin-bottom:10px;" id="submit-form">
+																				<input type="submit" style="position:absolute;top:0;left:-9999px;width:1px;height:1px" />
+
+																				<a class="wsite-button">
+
+																					<span class="wsite-button-inner">Submit</span>
+																				</a>
+																			</div>
+																		</form>
+
+																		<div id="confirmation" style="display:none">
+																			<div id="wsite-spacer" style="height:150px"></div>
+																			<h2 class="wsite-content-title" style="text-align:center; font-weight:100;">Thanks! </h2>
+																			<p style="font-family:Montserrat; text-align:center; font-size:30px;">We can't wait to see you!</p>
+																			<div id="wsite-spacer" style="height:500px"></div>
 																		</div>
-																		<div style="text-align:left; margin-top:10px; margin-bottom:10px;" id="submit-form">
-																			<input type="submit" style="position:absolute;top:0;left:-9999px;width:1px;height:1px" />
 
-																			<a class="wsite-button">
-
-																				<span class="wsite-button-inner">Submit</span>
-																			</a>
-																		</div>
-																	</form>
-
-																	<div id="confirmation" style="display:none">
-																		<div id="wsite-spacer" style="height:150px"></div>
-																		<h2 class="wsite-content-title" style="text-align:center; font-weight:100;">Thanks! </h2>
-																		<p style="font-family:Montserrat; text-align:center; font-size:30px;">We can't wait to see you!</p>
-																		<div id="wsite-spacer" style="height:500px"></div>
 																	</div>
 
-																</div>
 
 
-
-															</td>
+																</td>
 															<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
 
 
@@ -573,7 +606,7 @@
 																<div>
 																	<div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 																		<a>
-																			<img src="" alt="Placeholder for scan of formal invitation" style="width:auto;max-width:100%" />
+																			<img src="" alt="Formal Invitation Image" style="width:auto;max-width:100%" />
 																		</a>
 																		<div style="display:block;font-size:90%"></div>
 																	</div>
@@ -606,39 +639,39 @@
 		<ul class="wsite-menu-default">
 			<li id="pg823199998266193452" class="wsite-menu-item-wrap">
 				<a href="index.html" class="wsite-menu-item">
-						HOME
-					</a>
+					HOME
+				</a>
 
 			</li>
 			<li id="pg636076740979493339" class="wsite-menu-item-wrap">
 				<a href="accommodations.html" class="wsite-menu-item">
-							ACCOMMODATIONS
-						</a>
+					ACCOMMODATIONS
+				</a>
 
 			</li>
 			<li id="pg636076740979493339" class="wsite-menu-item-wrap">
 				<a href="details.html" class="wsite-menu-item">
-						DETAILS
-					</a>
+					DETAILS
+				</a>
 
 			</li>
 
 			<li id="active" id="pg335415072968798418" class="wsite-menu-item-wrap">
 				<a href="rsvp.html" class="wsite-menu-item">
-						RSVP
-					</a>
+					RSVP
+				</a>
 
 			</li>
 			<li id="pg317072742179917392" class="wsite-menu-item-wrap">
 				<a href="registry.html" class="wsite-menu-item">
-						REGISTRY
-					</a>
+					REGISTRY
+				</a>
 
 			</li>
 			<li class="wsite-menu-item-wrap">
 				<a href="explore.html" class="wsite-menu-item">
-						EXPLORE
-					</a>
+					EXPLORE
+				</a>
 
 			</li>
 		</ul>
