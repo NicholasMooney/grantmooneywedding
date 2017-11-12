@@ -28,6 +28,7 @@
  .cento-header .logo img { display: block; max-width: 200px; }
  .cento-header .logo #wsite-title { display: block; max-width: 500px; }
  .cento-header .logo, .cento-header .logo a { display: block; color: #000000; text-align: center; letter-spacing: .04em; font-family: 'antro_vectraregular', sans-serif; font-size: 60px; font-weight: 100; line-height: normal; }
+ #logoamp{font-size:36px;}
  .cento-header .nav-wrap { overflow: hidden; width: 100%; padding: 10px 0; background: #ffffff; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header label.hamburger { display: none; }
  .nav { text-align: center; }
@@ -220,6 +221,7 @@
  .cento-header .logo .wsite-logo { display: table-cell; vertical-align: middle; }
  .cento-header .logo a { font-size: 18px; line-height: 30px; }
  .cento-header .logo a img { height: auto; max-height: 30px; margin-top: 0 !important; margin-left: 0 !important; }
+ #logoamp{font-size:16px;}
  .cento-header #wsite-title { display: block; font-size: 18px !important; line-height: 1 !important; }
  .cento-header label.hamburger { position: absolute; z-index: 6; top: 0; left: 5px; display: inline-block; width: 30px; height: 30px; padding: 10px; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -ms-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
  .cento-header label.hamburger span, .cento-header label.hamburger span:before, .cento-header label.hamburger span:after { position: relative; display: block; width: 22px; height: 2px; background: #3e3e3e; content: ''; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
